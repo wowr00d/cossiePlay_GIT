@@ -1,0 +1,252 @@
+a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+    a:hover {
+        color: #00e68a;
+    }
+    body,html {
+        margin: 0px;
+        padding: 0px;
+    }
+    ::selection {
+        background-color: #00e68a;
+    }
+    button {
+        background-color: inherit;
+    }
+    h1, h2, h3, h4, h5 {
+        margin: inherit;
+        padding: inherit;
+    }
+    hr {
+        background-color: #00e68a;
+        border: 0px;
+        height: 2px;
+    }
+    #wrapper1 {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("images/fair.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    #navbar {
+        width: 1024px;
+        height: 40px;
+        padding-bottom: 5px;
+        padding-top: 10px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    #navbar-inner {
+        width: 100%;
+        height: 40px;
+    }
+    #navbar-inner a {
+        float: right;
+        color: white;
+        margin-top: 10px;
+        margin-right: 25px;
+        font-family: 'Bitter', serif;
+        font-size: 16px;
+        border-bottom:rgba(0,0,0,0) 2px solid;
+        transition: 0.2s;
+    }
+    #navbar-inner a:hover {
+        border-bottom: #00e68a 2px solid;
+        transition: 0.2s;
+        color: #00e68a;
+    }
+    #wrapper1-inner {
+        width: 1024px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        margin-top: 25vh;
+        text-align: center;
+    }
+    #wrapper1-inner h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 60px;
+        margin: 0px;
+        padding: 0px;
+        color: white;
+    }
+    #wrapper1-inner h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        margin: 0px;
+        padding: 0px;
+        color: white;
+    }
+    #wrapper1-inner button {
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 50px;
+        width: 125px;
+        border: #00b36b 2px solid;
+        height: 40px;
+        font-size: 18px;
+        background-color: #00b36b;
+        color: white;
+        border-radius: 30px;
+        transition: 0.3s;
+    }
+    #wrapper1-inner a:hover {
+        color: white;   
+    }
+    #wrapper1-inner button:hover {     
+        border-radius: 0px;
+        color: white;
+        background-color: #00e68a;
+        border: 2px solid white;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    #desc-wrapper {
+        width: 100%;
+        height: 350px;;
+    }
+    #desc-inner {
+        width: 1024px;
+        height: 320px;
+
+        margin-left: auto;
+        padding: 15px;
+        margin-right: auto;
+    }
+    #desc-img {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        background-image: url(images/sewing-hands-1418016.jpg);
+        background-size: cover;
+        display: inline-block;
+    }
+    #desc-info {
+        width: 700px;
+        height: 320px;
+        margin-top: 10px;
+        float:right;
+        display: inline-block;
+    }
+    #desc-info h3{
+        font-family: 'Bitter', serif;
+        font-size: 28px;
+        color: #0d0d0d;
+    }
+    #desc-info p{
+        font-family: 'Bitter', serif;
+        font-size: 16px;
+        color: #0d0d0d;
+    }
+    #gallery-wrapper {
+        width: 100%;
+        background-color: bisque;
+        height: 350px;
+    }
+    #gallery-desc {
+        width: 1024px;
+        text-align: center;
+        height: 200px;
+        position: relative;
+        top: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 45px;
+    }
+    #gallery-desc h4 {
+        position: relative;
+        top: -275px;
+    }
+    #gallery-desc span {
+        color: #00e68a;
+        border-bottom: 4px solid #00e68a;
+    }
+    #image-box1 {
+        width: 33.33%;
+        height: 100%;
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("images/alice.jpg");
+        background-size: cover;
+        float:left;
+    }
+    #image-box2 {
+        width: 33.33%;
+        height: 100%;
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("images/olaf.jpg");
+        background-size: cover;
+        background-position: center;
+        float:left;
+    }
+    #image-box3 {
+        width: 33.33%;
+        height: 100%;
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("images/winter.jpg");
+        background-size: cover;
+        background-position:center;
+        float:left;
+    }
+    #footer {
+        width: 100%;
+        height: 150px;
+        padding-top: 30px;
+        background-color: #0d0d0d;
+    }
+    #footer-inner {
+        width: 1024px;
+        height: 140px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #footer-links {
+        width: 33.33%;
+        height: 120px;
+        font-family: 'Open Sans', sans-serif;
+        color: #cccccc;
+        font-size: 14px;
+        float: left;
+    }
+    #footer-links h5{
+        font-size: 17px;
+        text-decoration: underline;
+    }
+    #footer-social {
+        width: 33.33%;
+        float: left;
+        height: 120px;
+    }
+    #footer-contact {
+        width: 33.33%;
+        height: 120px;
+        font-family: 'Open Sans', sans-serif;
+        color: #cccccc;
+        font-size: 14px;
+        float: left;
+    }
+    #footer-contact h5{
+        font-size: 17px;
+        text-decoration: underline;
+    }
+    #footer-contact a{
+        text-decoration: underline;
+    }
+    #footer-contact a:hover {
+        color: #00e68a;
+    }
+    #footer-copyright {
+        width: 100%;
+        height: 20px;
+        float: left;
+        color: #999999;
+        font-size: 13px;
+        text-align: center;
+        font-family: 'Opens Sans', sans-serif;
+    }
